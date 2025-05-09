@@ -28,7 +28,8 @@ services:
       AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
       S3_ENDPOINT: ${S3_ENDPOINT:-}
       S3_USE_PATH_STYLE_ENDPOINT: ${S3_USE_PATH_STYLE_ENDPOINT:-false}
-      GCS_BUCKET: ${GCS_BUCKET:-}
+      # Google bucket (use only if needed)
+      #GCS_BUCKET: ${GCS_BUCKET:-}
 
       # Branding options
       UI_COLOR_PRIMARY: ${UI_COLOR_PRIMARY:-#0a84ff}
